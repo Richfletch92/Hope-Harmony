@@ -40,6 +40,27 @@ h6 {
     border-radius: 50%;
 }
 
+.navbar li {
+    border-bottom: 3px solid var(--dark-purple);
+    margin-right: 5px;
+    padding: 5px;
+    transition: all 1s;
+    cursor: pointer;
+    text-shadow: 1px 1px grey;
+}
+
+.navbar li:hover {
+    border-bottom: 3px solid var(--pink);
+}
+
+.highlight {
+    color: var(--dark-purple);
+}
+
+.highlight:hover {
+    color: var(--pink);
+}
+
 /* Hero Section  */
 
 #hero {
@@ -58,6 +79,8 @@ h6 {
 #hero p {
     color: var(--pink)
 }
+
+
 
 
 /* Footer */
