@@ -1,0 +1,84 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+
+/* Variables */
+:root {
+    --light-purple: #b5a7ce;
+    --dark-purple: #928badc5;
+    --peach: #f1e5e5;
+    --pink: #debec5;
+    --grey: #aeaeb6;
+}
+
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Pacifico", cursive;
+    color: var(--grey);
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: var(--peach);
+    padding: 1rem;
+}
+
+.navbar img {
+    border-radius: 50%;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--peach);
+    padding: 1rem;
+    text-align: center;
+}
+
+#contact-us h2 {
+    text-shadow: 1px 1px black;
+}
+
+#contact-us h3 {
+    text-shadow: 1px 1px black;
+    padding-top: 1.5rem;
+}
+
+#contact-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-us .social-icons i {
+    font-size: 1.5rem;
+    color: var(--dark-purple);
+    text-shadow: 1px 1px black;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact-us i {
+    margin-right: 0.5rem;
+    color: var(--dark-purple);
+    text-shadow: 1px 1px black;
+}
+
+#contact-us .social-icons i:hover {
+    color: var(--light-purple);
+}
+
+#contact-us a {
+    font-size: 0.75rem;
+}
