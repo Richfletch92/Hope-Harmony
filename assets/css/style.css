@@ -90,6 +90,29 @@ h6 {
     background-color: blue;    
 }
 
+/* Information Section */
+
+.card-img-top {
+    max-height: 400px;
+    object-fit: fill;
+    margin: 0 auto;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-body .btn {
+    align-self: flex-end;
+}
+
 /* Footer */
 
 footer {
@@ -141,5 +164,8 @@ footer {
     }
     .navbar li:hover {
         border-bottom: 3px solid var(--pink);
+    }
+    .card-body {
+        min-height: 286px;
     }
 }
