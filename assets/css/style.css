@@ -8,6 +8,7 @@
     --peach: #f1e5e5;
     --pink: #debec5;
     --grey: #aeaeb6;
+    --dark-pink: #c28ba9;
 }
 
 /* General Styles */
@@ -45,6 +46,17 @@ h6 {
     background: url("../images/hero.png") no-repeat center center/cover;
     height: 60vh;
     position: relative;
+    text-shadow: 1px 1px black;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    color: var(--dark-pink);
+    text-align: center;
+}
+
+#hero p {
+    color: var(--pink)
 }
 
 
