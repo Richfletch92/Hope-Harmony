@@ -27,6 +27,7 @@ h5,
 h6 {
     font-family: "Pacifico", cursive;
     color: var(--grey);
+    text-shadow: 1px 1px black;
 }
 
 /* Navbar */
@@ -59,22 +60,35 @@ h6 {
 #hero {
     background: url("../images/hero.png") no-repeat center center/cover;
     height: 60vh;
-    position: relative;
-    text-shadow: 1px 1px black;
+    position: relative;  
 }
 
 #hero h1 {
     font-size: 3rem;
     color: var(--dark-pink);
     text-align: center;
+    text-shadow: 1px 1px black;
+    max-width: 500px;
 }
 
 #hero p {
-    color: var(--pink)
+    /* color: var(--pink) */
+    max-width: 500px;
 }
 
+/* Carousel Section */
 
+.carousel-indicators {
+    position: relative;
+}
 
+.carousel-indicators [data-bs-target] {
+    background-color: var(--dark-purple);
+}
+
+.custom-slide {
+    background-color: blue;    
+}
 
 /* Footer */
 
