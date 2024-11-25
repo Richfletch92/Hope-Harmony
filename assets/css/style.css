@@ -41,16 +41,9 @@ h6 {
 }
 
 .navbar li {
-    border-bottom: 3px solid var(--dark-purple);
     margin-right: 5px;
     padding: 5px;
-    transition: all 1s;
-    cursor: pointer;
     text-shadow: 1px 1px grey;
-}
-
-.navbar li:hover {
-    border-bottom: 3px solid var(--pink);
 }
 
 .highlight {
@@ -124,4 +117,15 @@ footer {
 
 #contact-us a {
     font-size: 0.75rem;
+}
+
+@media screen and (min-width: 992px){
+    .navbar li {
+        border-bottom: 3px solid var(--dark-purple);
+        transition: all 1s;
+        cursor: pointer;
+    }
+    .navbar li:hover {
+        border-bottom: 3px solid var(--pink);
+    }
 }
