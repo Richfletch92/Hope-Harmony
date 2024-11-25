@@ -4,7 +4,7 @@
 /* Variables */
 :root {
     --light-purple: #b5a7ce;
-    --dark-purple: #928badc5;
+    --dark-purple: #aa85c9;
     --peach: #f1e5e5;
     --pink: #debec5;
     --grey: #aeaeb6;
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
     font-family: "Pacifico", cursive;
-    color: var(--grey);
+    color: var(--dark-purple);
     text-shadow: 1px 1px black;
 }
 
@@ -111,6 +111,18 @@ h6 {
 
 .card-body .btn {
     align-self: flex-end;
+}
+
+.btn-primary {
+    background-color: var(--peach);
+    border-color: var(--grey);
+    color: var(--grey);
+    text-shadow: 1px 1px black;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-purple);
+    border-color: var(--grey);
 }
 
 /* Footer */
