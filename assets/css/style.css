@@ -39,6 +39,14 @@ h6 {
     border-radius: 50%;
 }
 
+/* Hero Section  */
+
+#hero {
+    background: url("../images/hero.png") no-repeat center center/cover;
+    height: 60vh;
+    position: relative;
+}
+
 
 /* Footer */
 
