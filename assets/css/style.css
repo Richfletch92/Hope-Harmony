@@ -158,6 +158,16 @@ h6 {
     color: black;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    bottom: 60%;
+}
+
 /* Footer */
 
 footer {
