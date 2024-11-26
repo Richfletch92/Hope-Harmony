@@ -135,32 +135,27 @@ h6 {
 
 /* Resources Section */
 
-/* .resources-border-left {
-    border-left: 2px solid var(--dark-purple);
-    border-top: 2px solid var(--dark-purple);
-    border-bottom: 2px solid var(--dark-purple);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.resources-border-right {
-    border-right: 2px solid var(--dark-purple);
-    border-top: 2px solid var(--dark-purple);
-    border-bottom: 2px solid var(--dark-purple);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-
-
-#resources h2 {
-    padding-top: 10px;
-} */
-
 #resources img {
     height: 300px;
     width: 300px;
     padding: 10px;
+}
+
+/* Team Carousel */
+
+#carousel-team .carousel-inner {
+    min-height: 900px;
+}
+
+#carousel-team img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#carousel-team p {
+    color: black;
 }
 
 /* Footer */
@@ -206,6 +201,13 @@ footer {
     font-size: 0.75rem;
 }
 
+/* Media Queries */
+
+@media  screen and (min-width: 768px) {
+    #carousel-team .carousel-inner {
+        min-height: 500px;
+    }
+}
 @media screen and (min-width: 992px){
     .navbar li {
         border-bottom: 3px solid var(--dark-purple);
