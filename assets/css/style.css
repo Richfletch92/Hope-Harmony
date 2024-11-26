@@ -44,11 +44,11 @@ h6 {
 .navbar li {
     margin-right: 5px;
     padding: 5px;
-    text-shadow: 1px 1px grey;
 }
 
 .highlight {
-    color: var(--dark-purple);
+    color: var(--dark-pink);
+    text-shadow: 1px 1px black;
 }
 
 .highlight:hover {
@@ -64,7 +64,7 @@ h6 {
 }
 
 #hero h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--dark-pink);
     text-align: center;
     text-shadow: 1px 1px black;
@@ -74,6 +74,10 @@ h6 {
 #hero p {
     /* color: var(--pink) */
     max-width: 500px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: rgba(174, 174, 182, 0.5);
+    border-radius: 5px;
 }
 
 /* Carousel Section */
@@ -90,6 +94,9 @@ h6 {
     background-color: blue;    
 }
 
+.carousel-inner {
+    height: 118px;
+}
 /* Information Section */
 
 .card-img-top {
@@ -116,13 +123,44 @@ h6 {
 .btn-primary {
     background-color: var(--peach);
     border-color: var(--grey);
-    color: var(--grey);
-    text-shadow: 1px 1px black;
+    color: black;
+    transition: all 0.4s ease-in-out;
 }
 
 .btn-primary:hover {
     background-color: var(--dark-purple);
     border-color: var(--grey);
+    text-shadow: 1px 1px black;
+}
+
+/* Resources Section */
+
+/* .resources-border-left {
+    border-left: 2px solid var(--dark-purple);
+    border-top: 2px solid var(--dark-purple);
+    border-bottom: 2px solid var(--dark-purple);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.resources-border-right {
+    border-right: 2px solid var(--dark-purple);
+    border-top: 2px solid var(--dark-purple);
+    border-bottom: 2px solid var(--dark-purple);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+#resources h2 {
+    padding-top: 10px;
+} */
+
+#resources img {
+    height: 300px;
+    width: 300px;
+    padding: 10px;
 }
 
 /* Footer */
