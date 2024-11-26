@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
 
@@ -99,7 +106,8 @@ h6 {
 
 .card-img-top {
     max-height: 400px;
-    object-fit: fill;
+    -o-object-fit: fill;
+       object-fit: fill;
     margin: 0 auto;
 }
 
@@ -108,20 +116,30 @@ h6 {
 }
 
 .card-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 100%;
 }
 
 .card-body .btn {
-    align-self: flex-end;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
 }
 
 .btn-primary {
     background-color: var(--peach);
     border-color: var(--grey);
     color: black;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
@@ -192,6 +210,8 @@ footer {
     font-size: 1.5rem;
     color: var(--dark-purple);
     text-shadow: 1px 1px black;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -219,6 +239,8 @@ footer {
 @media screen and (min-width: 992px){
     .navbar li {
         border-bottom: 3px solid var(--dark-purple);
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
         transition: all 1s;
         cursor: pointer;
     }
