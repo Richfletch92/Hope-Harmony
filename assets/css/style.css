@@ -229,8 +229,13 @@ footer {
     color: var(--light-purple);
 }
 
-#contact-us a {
+.quick-links a {
     font-size: 0.75rem;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: black;
 }
 
 /* Media Queries */
