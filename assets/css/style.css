@@ -6,7 +6,8 @@
 */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poiret+One&display=swap');
 
 /* Variables */
 :root {
@@ -16,6 +17,8 @@
     --pink: #debec5;
     --grey: #aeaeb6;
     --dark-pink: #c28ba9;
+    --main-font: 'Merriweather', serif;
+    --header-font: 'Poiret One', sans-serif;
 }
 
 /* General Styles */
@@ -23,7 +26,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: "Merriweather", serif;
+    font-family: var(--main-font)
 }
 
 h1,
@@ -32,9 +35,10 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Pacifico", cursive;
+    font-family: var(--header-font);
     color: var(--dark-purple);
     text-shadow: 1px 1px black;
+    font-weight: 900;
 }
 
 /* Navbar */
