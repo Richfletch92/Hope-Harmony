@@ -178,3 +178,29 @@ Thank you for visiting Hope Harmony. Your mental health matters, and we are here
 **Style.css**
 
 ![CSS Validation](assets/images/readme-images/css-validation.png)
+
+## Lighthouse Performance
+
+### Mobile
+![Mobile Lighthouse Performance](assets/images/readme-images/lighthouse-mobile.png)
+
+### Desktop
+![Desktop Lighthouse Performance](assets/images/readme-images/lighthouse-desktop.png)
+
+## Wireframes
+
+### Home Page
+
+![Home page wireframe](assets/images/readme-images/wireframe-home.png)
+
+### About Us Page
+
+![About Us page wireframe](assets/images/readme-images/wireframe-about.png)
+
+### Contact Us Page
+
+![Contact Us page wireframe](assets/images/readme-images/wireframe-contact.png)
+
+### Recources Page
+
+![Recources page wireframe](assets/images/readme-images/wireframe-rescources.png)
