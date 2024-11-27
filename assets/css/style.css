@@ -65,6 +65,7 @@ h6 {
     background: url("../images/hero.png") no-repeat center center/cover;
     position: relative;
     padding-bottom: 1rem;
+    min-height: 250px;
 }
 
 #hero h1 {
