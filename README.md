@@ -7,6 +7,7 @@
 ## Table of Contents
 
 - [About](#about)
+- [User Value Explanations](#user-value-explanations)
 - [Design](#design)
 - [Features](#general-features)
 - [Pages](#pages)
