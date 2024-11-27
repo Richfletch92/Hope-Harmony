@@ -144,3 +144,37 @@ Hope Harmony aims to support individuals facing mental health challenges by offe
 **Code for Check Boxes** - https://stackoverflow.com/questions/76508679/how-do-i-require-at-least-one-checkbox-to-be-selected
 
 Thank you for visiting Hope Harmony. Your mental health matters, and we are here to support you.
+
+## Validation
+
+### HTML
+
+**Home Page**
+
+![Home Page Validation](assets/images/readme-images/home-validation.png)
+
+**About Us Page**
+
+![About Us Page Validation](assets/images/readme-images/about-validation.png)
+
+**Contact Us Page**
+
+![Contact Us Page Validation](assets/images/readme-images/contact-validation.png)
+
+**Resources Page**
+
+![Resources Page Validation](assets/images/readme-images/resources-validation.png)
+
+**Success Page**
+
+![Success Page Validation](assets/images/readme-images/success-validation.png)
+
+**Success-2 Page**
+
+![Success-2 Page Validation](assets/images/readme-images/success-2-validation.png)
+
+### CSS
+
+**Style.css**
+
+![CSS Validation](assets/images/readme-images/css-validation.png)
