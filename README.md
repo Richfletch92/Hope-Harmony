@@ -15,7 +15,7 @@
     - [About Us Page](#about-us-page)
     - [Contact Us Page](#contact-us-page)
 - [AI Overview](#ai-overview)
-Things to be Improved
+- [Things to be Improved](#things-to-be-improved)
 - [Technologies Used](#technologies-used)
 - [Image Sources](#image-sources)
 - [Logo Sources](#logo-sources)
@@ -30,7 +30,7 @@ Things to be Improved
     - [Home Wireframe](#home-wireframe)
     - [About Us Wireframe](#about-us-wireframe)
     - [Contact Us Wireframe](#contact-us-wireframe)
-    - [Recources Wireframe](#resources-wireframe)
+    - [Resources Wireframe](#resources-wireframe)
 
 ## About
 
@@ -223,6 +223,6 @@ Wireframe
 
 ![Contact Us page wireframe](assets/images/readme-images/wireframe-contact.png)
 
-### Recources Wireframe
+### Resources Wireframe
 
-![Recources page wireframe](assets/images/readme-images/wireframe-rescources.png)
+![Recources page wireframe](assets/images/readme-images/wireframe-resources.png)
