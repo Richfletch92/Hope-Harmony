@@ -14,10 +14,23 @@
     - [Recources Page](#recources-page)
     - [About Us Page](#about-us-page)
     - [Contact Us Page](#contact-us-page)
+- [AI Overview](#ai-overview)
+Things to be Improved
 - [Technologies Used](#technologies-used)
 - [Image Sources](#image-sources)
 - [Logo Sources](#logo-sources)
 - [Java Script Sources](#java-script-sources)
+- [Validation](#validation)
+    - [HTML](#html)
+    - [CSS](#css)
+- [Lighthouse Performance](#lighthouse-performance)
+    - [Mobile](#mobile)
+    - [Desktop](#desktop)
+- [Wireframes](#wireframes)
+    - [Home Wireframe](#home-wireframe)
+    - [About Us Wireframe](#about-us-wireframe)
+    - [Contact Us Wireframe](#contact-us-wireframe)
+    - [Recources Wireframe](#resources-wireframe)
 
 ## About
 
@@ -110,6 +123,15 @@ Hope Harmony aims to support individuals facing mental health challenges by offe
 
 - **Contact Form**: A form to sumbit feedback. On Completion takes to another success page to confirm action  has been done. 
 
+## AI Overview
+
+AI was used throughout my project. Some areas of code was generated using Co-Pilot, it was also used for debugging purposes however it did still miss some errors. I did find it very helpful to generate blocks of basic code which saved time allowing me to focous in other areas. I also used AI to generate the information on my page to save time having to research. It was also used to generate a lot of images. 
+
+
+## Things to be Improved
+
+- **Contact Form**: Doesn't quite align to the center of the page so it will need centering.
+- **Mobile Performance**: Performance quite low on mobile due to hero section need further testing and optimisation.
 
 ## Technologies Used
 
@@ -154,7 +176,7 @@ Thank you for visiting Hope Harmony. Your mental health matters, and we are here
 ![Home Page Validation](assets/images/readme-images/home-validation.png)
 
 **About Us Page**
-
+Wireframe
 ![About Us Page Validation](assets/images/readme-images/about-validation.png)
 
 **Contact Us Page**
@@ -189,18 +211,18 @@ Thank you for visiting Hope Harmony. Your mental health matters, and we are here
 
 ## Wireframes
 
-### Home Page
+### Home Wireframe
 
 ![Home page wireframe](assets/images/readme-images/wireframe-home.png)
 
-### About Us Page
+### About Us Wireframe
 
 ![About Us page wireframe](assets/images/readme-images/wireframe-about.png)
 
-### Contact Us Page
+### Contact Us Wireframe
 
 ![Contact Us page wireframe](assets/images/readme-images/wireframe-contact.png)
 
-### Recources Page
+### Recources Wireframe
 
 ![Recources page wireframe](assets/images/readme-images/wireframe-rescources.png)
