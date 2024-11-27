@@ -10,7 +10,8 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="Hope Harmony" />
     <link rel="manifest" href="assets/images/favicon/site.webmanifest" />
-    <meta name="descritpion" content="Hope Harmony is a non-profit organization that helps people in need, 
+    <meta name="descritpion"
+        content="Hope Harmony is a non-profit organization that helps people in need, 
     provides information and advice for mental health support, and offers advice on outside rescources for further help.">
     <meta name="keywords"
         content="Hope Harmony, non-profit, organization, mental health, support, advice, help, resources">
@@ -50,7 +51,7 @@
                             <a class="nav-link" href="about-us.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -221,7 +222,7 @@
                         </div>
                         <div>
                             <a href="about-us.html">About Us</a>
-                            <a href="#contact-us">Contact Us</a>
+                            <a href="contact.html">Contact Us</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -242,7 +243,8 @@
                         <h3>Contact Info</h3>
                         <ul>
                             <li><i class="fa-solid fa-phone"></i>0800 123 4567</li>
-                            <li><a href="mailto:contact-us@hope-harmony.org"> <i class="fa-solid fa-envelope"></i>contact-us@hope-harmony.org</a></li>
+                            <li><a href="mailto:contact-us@hope-harmony.org"> <i
+                                        class="fa-solid fa-envelope"></i>contact-us@hope-harmony.org</a></li>
                         </ul>
                     </div>
                 </div>
@@ -262,42 +264,42 @@
                 <div class="modal-body">
                     <form action="success.html" class="row g-3">
                         <div class="col-md-6">
-                            <label for="input-full-name" class="form-label">Full Name</label>
-                            <input type="text" class="form-control" id="input-full-name" required>
+                            <label for="input-name" class="form-label">Name</label>
+                            <input type="text" name="full-name" class="form-control" id="input-name" placeholder="Please enter your name"  required>
                         </div>
                         <div class="col-md-6">
                             <label for="input-email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="input-email" required>
+                            <input type="email" name="email" class="form-control" id="input-email" placeholder="example@email.com" required>
                         </div>
                         <div class="col-12">
                             <p>Select all that apply</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="healthy-eating-check">
-                                <label class="form-check-label" for="healthy-eating-check">
+                                <label class="form-check-label" name="newsletter-type" for="healthy-eating-check">
                                     Healthy Eating Advice
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="anxiety-check">
-                                <label class="form-check-label" for="anxiety-check">
+                                <label class="form-check-label" name="newsletter-type" for="anxiety-check">
                                     Anxiety Support
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="stress-check">
-                                <label class="form-check-label" for="stress-check">
+                                <label class="form-check-label" name="newsletter-type" for="stress-check">
                                     Stress Management
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="mindfulness-check">
-                                <label class="form-check-label" for="mindfulness-check">
+                                <label class="form-check-label" name="newsletter-type" for="mindfulness-check">
                                     Mindfulness Techniques
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="depression-check">
-                                <label class="form-check-label" for="depression-check">
+                                <label class="form-check-label" name="newsletter-type" for="depression-check">
                                     Depression Support
                                 </label>
                             </div>

@@ -188,6 +188,16 @@ h6 {
     bottom: 60%;
 }
 
+/* Contact Us Section */
+
+#contact-form form {
+    border: 3px solid var(--dark-purple);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    max-width: 500px;
+}
+
 /* Footer */
 
 footer {
