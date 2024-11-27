@@ -4,6 +4,10 @@
 
 ![Site example on multiple devices.](assets/images/readme-images/responsive.png)
 
+[Click Here to view the Live Project.](https://richfletch92.github.io/Hope-Harmony/)
+
+[Click here to view the Repository.](https://github.com/Richfletch92/Hope-Harmony)
+
 ## Table of Contents
 
 - [About](#about)
